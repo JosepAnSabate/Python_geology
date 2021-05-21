@@ -66,7 +66,7 @@ print("l'arrel quadrada de la llibr. math es: %s"%(h))#evitar accents a qualsevo
 i = np.sqrt(2)
 print("l'arrel quadrada de la llibr numpy es: %s"%(i))
 
-#numpy pot calc per exemple larrel2 de tots els el duna martiu o llista
+#numpy pot calc per exemple larrel2 de tots els valors el duna martiu o llista
 print(np.sqrt([1,3,6,7]))
 #print(math.sqrt([1,3,6,7])) error
 
