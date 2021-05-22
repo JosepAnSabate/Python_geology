@@ -19,7 +19,7 @@ print(5/2)
 #divisio res integer
 print(6//3)
 print(7//3)
-
+print(round(9/2))
 #llibreria math
 import math
 print(dir(math))
@@ -29,6 +29,7 @@ print(arrel)
 
 factorial = math.factorial(6)
 print(factorial)
+
 
 
 
