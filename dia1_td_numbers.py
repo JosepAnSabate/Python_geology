@@ -17,7 +17,7 @@ print(2**8)
 print(6/3)
 print(5/2)
 #divisio res integer
-print(6//3)
+print(5//2)
 print(7//3)
 print(round(9/2))
 #llibreria math

@@ -14,10 +14,7 @@ print(type(valors))
 #modificar els valors
 alumnes["Joan"]+=1
 print(alumnes)
-L1 = [1,2,3]
-L2 = L1
-L2[0]=24
-print(L2)
+
 #ex diccionari
 diccionari_classes_roca = {"ignea":["basalt","granit","gabre"],
                            "metamorfica":["pissarra","esquist","gneis","marbre"],
