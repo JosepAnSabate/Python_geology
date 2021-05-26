@@ -20,6 +20,17 @@ for i in llista:
         
     else:
         print("%s es un text"%(i))
-        
-        
-          
+      
+  
+if False:
+    print("Falso")
+elif True:
+    print("Verdadero")
+else:
+    print("Finalmente Verdadero!") 
+    
+n=36
+if n%2 ==0:
+    print("par")
+else:
+    print("impar")
