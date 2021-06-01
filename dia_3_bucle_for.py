@@ -1,3 +1,6 @@
+#!/usr/bin/python
+#1a linia fa k amb un clic sexecuti
+
 import os 
 import shutil 
 import glob 
