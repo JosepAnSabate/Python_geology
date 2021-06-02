@@ -53,14 +53,30 @@ for oso in ossos.values():
         print("corre, corre, corre es un %s!"%(oso))
 
 
-#ex 5
+#ej 5
  
 tcero = time.time()
-              
 
-# check for factors
-for i in range(0, 21):
-    if (i) == 0:
-        print(i, "is not a prime number")  
+print(tcero)
+print(time.time())    
+          
+for num in range(2,21):
+    prime = True
+    for i in range(2,num):
+        if (num%i==0):
+            prime = False
+    if prime:
+       print (num, "es un numero primo")
+       time.sleep(0.1)
+    elif num % 2 == 0:
+        print(num, "es par")
+        time.sleep(0.5)
     else:
-        print(i, "is a prime number")
+        print(num, "es impar")
+        time.sleep(0.2)  
+tfinal = time.time()
+print(tfinal)
+
+ttotal = tfinal-tcero
+print(ttotal, "segundos")    
+       
