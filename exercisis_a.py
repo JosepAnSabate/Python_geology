@@ -1,5 +1,5 @@
 #ex1
-from numpy.core.defchararray import upper
+
 b = ["h","o","l","a"]
 c = []
 
