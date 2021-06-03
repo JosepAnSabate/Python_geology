@@ -67,7 +67,7 @@ for num in range(2,21):
             prime = False
     if prime:
        print (num, "es un numero primo")
-       time.sleep(0.1)
+       time.sleep(1)
     elif num % 2 == 0:
         print(num, "es par")
         time.sleep(0.5)
