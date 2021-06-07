@@ -10,6 +10,24 @@ shpLayer = QgsVectorLayer(filePath,'capa ejemplo','ogr')
 #fileName = r'C:\Users\34639\Desktop\pyqgis\u4\ej1_datos\ej2\proyecto.qgs'
 #fileSave
 
+#sistema coordenades
+crs = QgsProject.instance().crs()
+print(crs.authid())
+#Unidades del proyecto
+print(QgsProject.instance().distanceUnits())
+# o
+print(QgsProject.instance().areaUnits())
+#unitats  metros, grados, ha...
+print(QgsUnitTypes.encodeUnit(0))
+
+#accedir al num k se corresponda con la unidad de medida
+print(QgsUnitTypes.decodeDistanceUnit('nautical miles'))
+
+#accedir a la taula datributs
+layerFields = shpLayer.fields()
+#obtenir el nom de tots els camps
+print(layerFields.names())
+
 #ex1
 csv=r'C:\Users\34639\Desktop\pyqgis\u4\ej1_datos\datos_accidentes.csv'
 config = '?encoding=windows-1252&type=csv&delimiter=;'
