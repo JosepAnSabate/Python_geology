@@ -33,8 +33,8 @@ igneas= ["pumita","obsidiana","basalto","granito"]
 
 c= "gabro"
 
-if (c in igneas):
-    print ("El elemento existe")
+if c in igneas:
+    print("El elemento existe")
 else:
     igneas.append(c)
 
@@ -46,8 +46,8 @@ ossos = {"Grizzly": "enfadado", "Pardo":"amistoso", "polar":"amistoso"}
 
 print(ossos)
 
-for oso in ossos.values():
-    if oso == "amistoso":
+for oso in ossos:
+    if ossos[oso]=="amistoso":
         print("Hola, "+oso + "!")
     else:
         print("corre, corre, corre es un %s!"%(oso))
@@ -79,4 +79,7 @@ print(tfinal)
 
 ttotal = tfinal-tcero
 print(ttotal, "segundos")    
+
+#ex 6
+
        
