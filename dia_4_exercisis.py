@@ -57,5 +57,26 @@ print ("b: %s"%(b))
 print ("Coincidencia de resultados: %s"%(a==b))
 
 
+#ej 4
+# Ejercicio 4 : Funcion que apunta en un diccionario los datos personales de los alumnos
+
+info_alumnos= {}
+
+def datos_personales():
+    global info_alumnos
+    dni = str(input("Indicar DNI (Inventado): "))
+    Nombre = str(input("Indicar Nombre: "))
+    Apellidos = str(input("Indicar Apellido: "))
+    Edad = str(input("Indicar Edad: "))
+    Pais = str(input("Pais Procedencia: "))
+    info_alumnos[dni] = {"Dni":dni,"Nombre":Nombre,  
+                         "Apellidos": Apellidos, "Edad": Edad,
+                          "Pais":  Pais}
+  
+  
+datos_personales()
+#Imprimimos el diccionario
+print(info_alumnos)
+
 
 
