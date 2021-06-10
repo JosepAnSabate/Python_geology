@@ -60,7 +60,7 @@ tcero = time.time()
 print(tcero)
 print(time.time())    
           
-for num in range(2,21):
+for num in range(0,21):
     prime = True
     for i in range(2,num):
         if (num%i==0):
@@ -70,7 +70,9 @@ for num in range(2,21):
        time.sleep(1)
     elif num % 2 == 0:
         print(num, "es par")
-        time.sleep(0.5)
+        time.sleep(0.1)
+    elif num == 1:
+        print(num,"es impar")
     else:
         print(num, "es impar")
         time.sleep(0.2)  
@@ -80,6 +82,17 @@ print(tfinal)
 ttotal = tfinal-tcero
 print(ttotal, "segundos")    
 
+
+
+
 #ex 6
 
+edad = int(input('Introduzca su edad: '))
+num_meses = int(input('Introduzca num meses ultima compra: '))
+cadena_sexo = input('Introduzca su sexo (HOMBRE / MUJER): ')                
+sexo = (cadena_sexo == "MUJER")
        
+if ((edad >= 25) and ((sexo and (num_meses <= 2)) or (not sexo and (num_meses < 2)))) or ((edad < 25) and (num_meses <= 5)):
+    print("aplicar descuento")
+else:
+    print("No aplicar descuento")
