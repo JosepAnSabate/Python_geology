@@ -1,6 +1,8 @@
 eclipse.preferences.version=1
 encoding//arcpy/definir_proy_mdt.py=utf-8
 encoding//arcpy/parte_2_concas_fluviales.py=utf-8
+encoding//hidrogeologia/A_normalizacion_datos_entrada.py=latin1
+encoding//hidrogeologia/B_Caluclo_campos.py=latin1
 encoding//matrius_taules_i_grafics/numpy_arrays.py=latin1
 encoding//sismologia/calculo_intensidad_terremoto.py=latin1
 encoding//sismologia/sismograma.py=latin1
